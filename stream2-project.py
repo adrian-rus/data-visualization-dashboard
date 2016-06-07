@@ -10,7 +10,7 @@ MONGODB_HOST = 'ds025459.mlab.com'
 MONGODB_PORT = 25459
 DBS_NAME = 'heroku_nzs2nnbh'
 COLLECTION_NAME = 'projects'
-MONGO_URI = 'mongodb://<dbuser>:<dbpassword>@ds025459.mlab.com:25459/heroku_nzs2nnbh'
+MONGO_URI = 'mongodb://root:admin@ds025459.mlab.com:25459/heroku_nzs2nnbh'
 
 FIELDS = {'funding_status': True, 'school_state': True, 'resource_type': True,
           'poverty_level': True, 'date_posted': True, 'total_donations': True,
