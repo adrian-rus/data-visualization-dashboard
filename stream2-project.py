@@ -31,7 +31,7 @@ def home():
 def donor_projects():
     connection = MongoClient(MONGO_URI)
     collection = connection[DBS_NAME][COLLECTION_NAME]
-    projects = collection.find(projection=FIELDS, limit=25000)
+    projects = collection.find(projection=FIELDS, limit=20000)
     json_projects = []
     for project in projects:
         json_projects.append(project)
