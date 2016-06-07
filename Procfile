@@ -1,0 +1,1 @@
+web: gunicorn stream2-project:app
